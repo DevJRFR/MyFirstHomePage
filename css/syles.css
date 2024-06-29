@@ -23,7 +23,6 @@ body{
 }
 
 #principal{
-    box-shadow: inset 0px 0px 5px 3px white;
     margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +32,6 @@ body{
     width: 90%;
     height: 60vh;
     background-color: black;
-    overflow: auto;
     border-radius: 10px;
 }
 .container{
