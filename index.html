@@ -13,30 +13,33 @@
         <h1>THIS IS A HOME PAGE OF EXAMPLES</h1>
         <p>The content of this page is only of practice</p>
     </header>
+   <center> <div class="options">
+        <h2> We have this options for you</H2>
+    </div></center>
     <section id="principal">
         <div class="container">
-            <img src="" alt="image of shoes">
-            <p>In this link you found content of shoes</p>
+            <img src="/img/shoespresent.png" alt="image of shoes">
+            <p class="description" >In this link you found content of shoes</p>
         </div>
         <div class="container">
             <img src="" alt="image of cars">
-            <p>for this link you found information of cars</p>
+            <p class="description">for this link you found information of cars</p>
         </div>
         <div class="container">
             <img src="" alt="image of game">
+        <div class="description">
             <p>this link is only information or news of games</p>
         </div>
-
-        <br>
-        <div>
-            <input type="button" value="Press" onclick=ShowAlert()>
-            <script>
-                function ShowAlert(){
-                    alert("Hello World from your phone");
-                }
-            </script>
         </div>
     </section>
+    <div>
+        <input type="button" value="Press" onclick=ShowAlert()>
+        <script>
+            function ShowAlert(){
+                prompt("Hello World from your phone");
+            }
+        </script>
+    </div>
 </div>
 </body>
 </html>
